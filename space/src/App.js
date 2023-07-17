@@ -1,8 +1,8 @@
+import './styles/estilosGlobais.scss'
+import PaginaInicial from "./Paginas/PaginaInicial";
 
-function App() {
+export default function App() {
   return (
-    <h1>Space</h1>
+    <PaginaInicial/>
   );
 }
-
-export default App;
